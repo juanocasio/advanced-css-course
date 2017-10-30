@@ -46,6 +46,7 @@ clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%)
 .heading-primary {
   color: #fff;
   text-transform: uppercase;
+  backface-visibility: hidden;
 }
 
 .heading-primary-main {
@@ -53,8 +54,7 @@ clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%)
   font-size: 60px;
   font-weight: 400;
   letter-spacing: 35px;
-  animation-name:moveInLeft;
-  animation-duration: 1s;
+  animation: moveInLeft 1s ease-out;
 }
 
 .heading-primary-sub {
@@ -62,8 +62,7 @@ clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%)
   font-size: 20px;
   font-weight: 700;
   letter-spacing:17.5px;
-  animation-name: moveInRight;
-  animation-duration: 1s;
+  animation: moveInRight 1s ease-out;
 }
 .text-box {
   position: absolute;
