@@ -2,10 +2,13 @@
   "name": "advanced-css-course",
   "version": "1.0.0",
   "main": "index.js",
+"scripts": {
+"compile:sass": "node-sass Natours/starter/sass/main.scss Natours/starter/css/style.css -w"
+},
   "repository": "https://github.com/juanocasio/advanced-css-course.git",
   "author": "juanocasio <juanocasio@comcast.net>",
   "license": "MIT",
-  "dependencies": {
+  "devDependencies": {
     "node-sass": "^4.5.3"
   }
 }
