@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
 "scripts": {
-"compile:sass": "node-sass Natours/starter/sass/main.scss Natours/starter/css/style.css -w"
+"compile:sass": "node-sass -w Natours/starter/sass/main.scss Natours/starter/css/style.css"
 },
   "repository": "https://github.com/juanocasio/advanced-css-course.git",
   "author": "juanocasio <juanocasio@comcast.net>",
